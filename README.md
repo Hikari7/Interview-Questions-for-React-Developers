@@ -27,13 +27,13 @@ The Virtual DOM works in three simple steps:
 
 1. Any underlying data changes, the entire UI is re-rendered in V-DOM representation.
 2. The difference between the previous DOM representation and the new one is calculated.
-3 Once the calculations are done, the real DOM will be updated with only the things that have actually changed.
+   3 Once the calculations are done, the real DOM will be updated with only the things that have actually changed.
 
 ## What are React components? What is a state in React?
 
 "Components are the construction blocks of a React's application's UI"
 
-"States are the heart of React components.", 
+"States are the heart of React components.",
 "States are the source of data and must be kept as simple as possible",
 "States are the objects which determine components rendering and behavior"
 
@@ -60,30 +60,37 @@ Refs are a way for you to get a handle back to the component you've created. It 
 ## What are the different phases of React component's lifecycle?
 
 ```bash
-> answer here...
+> React has a few lifecycle. Belows are mainly lifecycle events.
+- Mounting: Birth of your component
+- Update: Growth of your component
+- Unmount: Death of your component
 ```
 
 ## What is the difference between a Container and a Component?
 
 ```bash
-> answer here...
+> A container is a file to put some components which consist of the app. On the otherhand, a component is a reusable codes serves the same purpose as JavaScript functions or return HTML as well.
 ```
 
 ---
+
 ---
-<center>🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼</center>
+
+## <center>🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼🤘🏼</center>
+
 ---
+
 ---
----
+
 # Interview Challenges for React Developers
 
 ### A) Add and Delete Items From the List
 
 In this challenge, the developer has to create an input field with a button.
 
-When the button is clicked, the text in the input field should be added below in a list. Moreover, whenever any list item is clicked, it should be removed from the list. 
+When the button is clicked, the text in the input field should be added below in a list. Moreover, whenever any list item is clicked, it should be removed from the list.
 
-The motive of this challenge is to check how good the developer is with forms, state, and lists. 
+The motive of this challenge is to check how good the developer is with forms, state, and lists.
 
 ### B) Displaying Data Coming From an API
 
@@ -110,7 +117,7 @@ For this challenge, you have three components, each containing a button that inc
 
 In this coding challenge, the interviewer wants to check how you implement and use Redux. So, you might be provided with a basic React application with two components - one that will contain the buttons to increment and decrement the global state and another to display the value.
 
-### E) **Share data among components without using props and Redux
+### E) \*\*Share data among components without using props and Redux
 
 In this coding challenge, the interview might give you a React application with multiple nested components like the following.
 

@@ -1,7 +1,12 @@
 import "./App.css";
+import ChallengeA from "./components_A/ChallengeA";
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <ChallengeA />
+    </>
+  );
 }
 
 export default App;
