@@ -25,8 +25,8 @@ function ChallengeA() {
         <button type="submit">Submit</button>
       </form>
       <ul style={{ textAlign: "left" }}>
-        {list.map((item) => (
-          <ListItems item={item} list={list} setList={setList} />
+        {list.map((item, index) => (
+          <ListItems item={item} index={index} setList={setList} list={list} />
         ))}
       </ul>
     </>
