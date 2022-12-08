@@ -14,6 +14,7 @@ function ChallengeA() {
 
   return (
     <>
+      <h2 className="yellow">Challenge A</h2>
       <form onSubmit={handleSubmit}>
         <label>Type something here</label>
         <br />
